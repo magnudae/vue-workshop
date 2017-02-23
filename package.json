@@ -1,0 +1,28 @@
+{
+  "name": "vue-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnudae/vue-workshop.git"
+  },
+  "author": "magnudae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnudae/vue-workshop/issues"
+  },
+  "homepage": "https://github.com/magnudae/vue-workshop#readme",
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "vue": "^2.1.10",
+    "vue-loader": "^11.1.1",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
